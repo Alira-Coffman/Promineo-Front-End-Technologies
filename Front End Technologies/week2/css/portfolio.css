@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+
+*
+{
+    font-family: "Times New Roman", Times, serif;
+}
+h1
+{
+    font-family: 'Palette Mosaic', cursive;
+    text-align: center;
+}
+div
+{
+    padding: 4%;
+}
+
+#grid 
+{
+    display: grid;
+    grid-gap: 6px;
+    grid-template-columns: repeat(3,0fr);
+    float: center;
+    margin: 0 20%;
+}
+#grid img:hover
+{
+    opacity: .7;
+}
+form
+{
+    display: inline-grid;
+}
+form > *
+{
+  margin: 10px;
+}
