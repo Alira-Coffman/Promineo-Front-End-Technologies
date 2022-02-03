@@ -3,50 +3,48 @@ body{
 }
 #hero
 {
-    background-image: url('../img/narwhale.jpg');
-    width: 100%;
-    height: 67vh; /*px, vh, em, vw, rem */
-    background-repeat: no-repeat;
+    background-image: url(../img/narwhale.jpg);
+    background-repeat:  no-repeat;
+    background-position: center;
+    height: 67vh; /*px, rem, vw... */
     text-align: center;
-    margin: 0px auto;
-    background-position:center;
     padding: 10px;
-    margin: 14px;
 }
-.content {
-    padding: 104px;
-    width: 38%;
-    margin: 0 auto;
-    color: black;
+#hero .content
+{
+    padding: 19%;
+    color: white;
+    
 }
-
+#hero .content h1, #hero .content p{
+    background-color: #add8e6cf
+}
 button
 {
-    background: darkblue;
+    background: #0178a3;
     color: white;
-    font-size: x-large;
-    padding: 12px;
-}
-#column
-{
+    font-size: larger;
     padding: 10px;
-    margin: 14px;
-    background:white;
-    text-align: center;
+    border: 2px solid darkblue;
+    border-radius: 6%;
 }
-#column .content p
-{
-    column-count: 5;
-    column-gap: 10px;
 
+#columnInfo{
+    background: #d4f0fc;
+    text-align: center;
+    padding: 10px;
+}
+#columnInfo .content p
+{
+    column-count: 3;
+    
 }
 .grid-member
 {
-    width: 17%;
+    width: 18%;
     text-align: center;
-    background: black;
-    color: white;
-    padding: 10px;
+    background: #d4f0fc;
+    padding: 5px;
     margin: 5px;
 }
 #grid
