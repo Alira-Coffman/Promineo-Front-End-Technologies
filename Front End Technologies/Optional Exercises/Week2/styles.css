@@ -1,0 +1,56 @@
+#nav
+{
+    background: lightgreen
+}
+#about
+{
+    background: lightpink;
+}
+#skills
+{
+    background: lightsteelblue;
+}
+#projects
+{
+    background: mediumpurple;
+    text-align: center;
+}
+#contact
+{
+    background: mediumslateblue;
+}
+.projects
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+   
+}
+.project
+{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    border: 1px solid black;
+    margin: 8px;
+    width: 44%
+}
+.project img
+{
+   max-width: 50%;
+}
+.project .description
+{
+    margin: 5%;
+}
+#contact
+{
+    text-align: center;
+}
+#contact form
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 15%;
+}
