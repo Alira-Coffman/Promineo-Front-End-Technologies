@@ -26,9 +26,9 @@ function startGame()
         console.log(`Player Played: ${player1Card.name} \n Computer Played: ${player2Card.name}`);
 
         whoWon(player1Card, player2Card);
-    }
+    };
     console.log(`THANKS FOR PLAYING`);
-}
+};
 
 function buildMainDeck()
 {
