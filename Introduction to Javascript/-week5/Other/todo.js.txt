@@ -1,0 +1,47 @@
+ 
+const customers = [
+    {
+        name: 'Cam',
+        address: {
+            street: '1234 W Bell Rd',
+            city: 'Peoria',
+            zip: undefined,
+            state: 'AZ'
+        }, 
+        membershipLevel: 'SILVER',
+        age: 28
+    }
+    //more customers with the same schema
+];
+ 
+
+//Name must start with c, upper or lower
+//customers.name[0] == ('c' || 'C');
+
+let temp = customers[i].name[0].toLowerCase();
+if(temp != 'c')
+{
+    //filter out, not correct client
+    console.log("doesn't start with a C");
+
+}
+//city peoria state == AZ
+else if (customers.address.state != 'AZ' || customers.address.city != 'Peoria' )
+{
+    //filter out, not correct client
+    console.log("Not right State or City");
+}
+//address cannot be undefined 
+else if(typeof customers.address.street === undefined || typeof customers.address.zip === undefined )
+{
+    //filter out, not correct client
+    console.log("invalid address");
+}
+else if((customers.membershipLevel == "GOLD") || customers.membershipLevel =="PLAT" || (customers.age < 29 && customers.membershipLevel == "SILVER"))
+{
+    //filter in
+    console.log("include");
+    newArray[x] = customers[i];
+}
+
+
