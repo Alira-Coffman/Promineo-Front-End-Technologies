@@ -32,36 +32,46 @@ console.log(car.year)
 // myArray = myArray.map(Math.sqrt);
 // console.log(myArray);
 
-// let newArray = myArray.reduce( function(adder, value) {
-//     return adder+value;
-// })
+ let newArray = myArray.reduce( function(adder, value) {
+   return adder+value;
+})
 // console.log(newArray)
 
-// function calculateGPA(a,b,c,d,e,f)
-// {
-//     let myGpa = [a,b,c,d,e,f];
-//     let sum = 0;
-//     let numOfGrades = 0;
-//     for(let i = 0; i < myGpa.length; i++)
-//     {
-//         console.log(myGpa[i]);
-//         if(!(myGpa[i] >= 0 && myGpa[i] <= 4) || myGpa[i] === '')
-//         {
-//             console.log('throw it away ', myGpa[i])
-//         }
-//         else 
-//         {
-//             sum += myGpa[i];
-//             numOfGrades++;
+function calculateGPA(a,b,c,d,e,f)
+{
+    let myGpa = [a,b,c,d,e,f];
+    let sum = 0; //initalizing. 
+    let numOfGrades = 0;
+    for(let i = 0; i < myGpa.length; i++)
+    {
+        console.log(myGpa[i]);
+        if(!(myGpa[i] >= 0 && myGpa[i] <= 4) || myGpa[i] === '')
+        {
+            console.log('throw it away ', myGpa[i])
+        }
+        else 
+        {
+            sum += myGpa[i];
+            numOfGrades++;
 
-//         }
-//     }
-//     console.log(sum, numOfGrades)
-//     //add and divide
-//     return sum / numOfGrades;
+        }
+    }
+    console.log(sum, numOfGrades)
+    //add and divide
+    return sum / numOfGrades;
 
-// }
-// console.log(calculateGPA('', 4, 8, 0, 1, ''));
+}
+console.log(calculateGPA(2, 4, 8, 0, 1, 2));
+
+
+//calculating average. 
+
+let averageValues = [1, 2, 3];
+//STEP 1: Sum defined, number of items defined(length of the array - 1).
+//STEP 2: Loop over the array, and add the number (ex sum = sum +  averageValues[i])
+//STEP 3 sum / number of items
+
+
 // let myArray = ["sam", "jeff", "mike" , "smith"];
 
 // console.log(myArray[1]);
