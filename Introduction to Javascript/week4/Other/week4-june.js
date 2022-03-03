@@ -17,7 +17,7 @@ function getFruit(){
 }
 
 getFruit();                //apple
-
+names.reduce((previousVal, currentVal) => previousVal + currentVal.length, 0);
 
 //Block Scope - Example 2
 // function foo(){
