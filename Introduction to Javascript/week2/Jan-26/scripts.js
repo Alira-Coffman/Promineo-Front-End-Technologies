@@ -75,3 +75,12 @@ while(i > 5)
 //         console.log('CAN IT BE THE WEEKEND...?');
 //         break;
 // }
+
+
+
+//Do you know the number of loops/interations etc that you have to do? 
+    //YES? FOR LOOP
+//Do you need to run at least once?
+    //YES do while
+
+//WHILE

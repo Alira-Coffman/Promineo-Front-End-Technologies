@@ -1,4 +1,4 @@
-# Conditions & Loops
+# All About Booleans 
 
 ## Boolean Question
 ### print the result of a is greater than b or b and c are greater than d.
