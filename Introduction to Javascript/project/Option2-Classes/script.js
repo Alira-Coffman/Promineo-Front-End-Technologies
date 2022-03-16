@@ -1,6 +1,9 @@
 function startGame() {
+    //deck cards
     const deck1 = new deck();
     
+
+    //26 cards
     const player1 = new player(deck1.deck.splice(0,26));
     const player2 = new player(deck1.deck.splice(0,26));
     //console.log(player1.playerDeck);
@@ -73,7 +76,10 @@ class deck{
     {
         const suits = ['Diamonds', 'Hearts', 'Clubs', 'Spades'];
         const values = ['Ace',2, 3, 4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King'];
+        const xxx = [13,2,3,4,5,6];
 
+        //option 1
+       
         //create a deck.
 
         for(let i = 0; i < suits.length; i++)
