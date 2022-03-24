@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Clock from './component/Clock';
-import ToDoList from './component/ToDoList';
+import FunctionalComponent from './component/FunctionalComponent';
+import CarFunctional from './component/CarFunctional';
+
 function App() {
   return (
     <div className="App">
-      <ToDoList />
+      <FunctionalComponent />
+
+      <CarFunctional />
     </div>
   );
 }

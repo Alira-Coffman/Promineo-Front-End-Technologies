@@ -1,54 +1,49 @@
-body{
-    background-color: #0178a3;
-}
-#hero
-{
-    background-image: url(../img/narwhale.jpg);
-    background-repeat:  no-repeat;
-    background-position: center;
-    height: 67vh; /*px, rem, vw... */
-    text-align: center;
-    padding: 10px;
-}
-#hero .content
-{
-    padding: 19%;
-    color: white;
-    
-}
-#hero .content h1, #hero .content p{
-    background-color: #add8e6cf
-}
-button
-{
-    background: #0178a3;
-    color: white;
-    font-size: larger;
-    padding: 10px;
-    border: 2px solid darkblue;
-    border-radius: 6%;
+#hero{
+    background: url('narwhale.jpg');
+    background-color: #cccccc; /* Used if the image is unavailable */
+  height: 200px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+    margin: 0;
+  text-align: center;
+  color: white;
 }
 
-#columnInfo{
-    background: #d4f0fc;
-    text-align: center;
-    padding: 10px;
-}
-#columnInfo .content p
+#read
 {
-    column-count: 3;
-    
+    border: .5px solid white;
+    background: gray;
+    padding: 10px 20px;
 }
-.grid-member
+#read:hover
 {
-    width: 18%;
-    text-align: center;
-    background: #d4f0fc;
-    padding: 5px;
-    margin: 5px;
+    background-color: aliceblue;
 }
-#grid
+.col
+{
+    text-align: center;
+    margin: 0px 10%;
+}
+.col p
+{
+    column-count: 2;
+}
+.flex
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(82, 77, 77);
+    margin: 5%;
+}
+.card
+{
+    width: 25%;
+    padding: 2px;
+    background-color: white;
+}
+.card img
+{
+    width: 100%;
 }
