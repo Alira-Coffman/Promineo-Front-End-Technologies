@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey, Arnold</title>
+</head>
+<body>
+    <h1>Welcome to our website about Hey, Arnold</h1>
+    <p>Hey Arnold! is an American animated comedy television series created by Craig Bartlett. It originally aired on Nickelodeon from October 7, 1996, to June 8, 2004.[1] The show centers on a fourth grader named Arnold Shortman, who lives with his grandparents in an inner-city tenement in Hillwood, Washington. Episodes center on his experiences navigating urban life while dealing with the problems he and his friends encounter. Many episodes however, focuses on other characters, including major, secondary, supporting, and even minor characters get their own episodes.</p>
+    <ul>
+        <li>Gerald Johanssen</li>
+        <li>Helga Pataki</li>
+        <li>Bartlett</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad illo illum fugit, et, deleniti minima assumenda reiciendis aliquid nam tempore consequuntur nostrum rerum sit, iure recusandae est unde sed necessitatibus.</p>
+    <a href="https://www.promineotech.com">Class HomePage</a>
+    <a href="index.html">index</a>
+    <a href="../powerRanger.html">powerRanger</a>
+
+    <form>
+        <label for="name">Your name: </label>
+        <input type="text" name="" id="">
+        <label for="email">Email: </label>
+        <input type="email" name="" id="email" required>
+        <label for="email">You agree </label>
+        <input type="checkbox" name="" id="">
+
+        <button onclick="store()"  type="submit">Submit</button>
+    </form>
+
+    <script>
+         function store(){
+     var inputEmail= document.getElementById("email");
+     localStorage.setItem("email", inputEmail.value);
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+#hero
+{
+    background-image: url('/img/hero.jpg');
+    
+    height: 300px;
+    text-align: center;
+    padding:5%;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+   
+}
+.text
+{
+    background-color: rgba(237, 230, 230, 0.63);
+    padding: 2px;
+}
+.text button
+{
+    padding: 10px;
+    background-color: orange;
+}
+.text button:hover
+{
+    padding: 10px;
+    background-color: rgb(113, 79, 16);
+}
+
+/*Columns*/
+#col
+{
+    background-color: lightblue;
+    text-align: center;
+    padding: 0px 100px;
+}
+#col p
+{
+    column-count: 2;
+}
+#cards 
+{
+   
+    display: flex;
+    justify-content: space-between;
+   
+}
+.card
+{
+    margin: 2px;
+    background-color: blue;
+}
