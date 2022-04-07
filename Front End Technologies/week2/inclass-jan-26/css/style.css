@@ -40,11 +40,32 @@
 {
    
     display: flex;
-    justify-content: space-between;
-   
+    justify-content: center;
+    background-color: darkorange;
+    padding: 3%;
 }
 .card
-{
+{   width: 25%;
     margin: 2px;
-    background-color: blue;
+    background-color: rgb(248, 248, 248);
+    padding: 15px;
+    margin: 0px 15px 0px 15px;
+    text-align: center;
+}
+#fourth{
+    text-align: center;
+    padding: 20px 70px;
+}
+#footer span
+{
+    width: 45%;
+    padding: 2%;
+    text-align: center;
+}
+#footer span:first-child {
+    float: left;
+}
+#footer span:last-child {
+    float:right;
+    background-color: darkgray;
 }

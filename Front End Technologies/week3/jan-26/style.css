@@ -1,0 +1,9 @@
+.jumbotron
+{
+    background-image: url('/img/hero.jpg');
+    height: 100%;
+}
+#col-count
+{
+    column-count: 2;
+}
