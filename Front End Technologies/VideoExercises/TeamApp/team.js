@@ -1,3 +1,4 @@
+//This is the members class
 class Member{
     constructor(name,position){
         this.name =name;
@@ -5,16 +6,19 @@ class Member{
     }
 }
 
+//teams class
 class Team {
     constructor(id,name) {
         this.id = id;
         this.name = name;
         this.members = [];
     }
+    //add a member to team
     addMember(member)
     {
         this.members.push(member);
     }
+    //remove a member from team
     deleteMember(member)
     {
         let index= this.members.indexOf(member);
