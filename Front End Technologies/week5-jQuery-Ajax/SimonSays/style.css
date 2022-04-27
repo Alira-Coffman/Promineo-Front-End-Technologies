@@ -1,0 +1,30 @@
+.red-box
+{
+    background-color: red;
+    box-shadow: inset 0px -8px 2px 0px #8d0101;
+
+}
+.green-box
+{
+    background-color: green;
+    box-shadow: inset 0px -8px 2px 0px #003000;
+
+}
+.blue-box
+{
+    background-color: blue;
+    box-shadow: inset 0px -8px 2px 0px #010f5f;
+
+}
+.yellow-box
+{
+    background-color: yellow;
+    box-shadow: inset 0px -8px 2px 0px #616101;
+
+}
+
+.box
+{
+    height: 150px ;
+    width: 150px;
+}
