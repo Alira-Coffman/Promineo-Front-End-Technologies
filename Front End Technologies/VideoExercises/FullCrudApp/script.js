@@ -141,7 +141,7 @@ class DOMManager{
                     <div class="card">
                         <div class="row">
                             <div class="col-sm">
-                                <input type="text" id="${house._id}-room-name" class="form-control" placeholder="Room Name"/>
+                                <input type="text" id="${house._id}-room-name class="form-control" placeholder="Room Name"/>
                             </div>
                             <div class="col-sm">
                                 <input type="text" id="${house._id}-room-area" class="form-control" placeholder="Room Area"/>
