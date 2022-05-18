@@ -79,7 +79,7 @@ function displayMovies(data)
         <div id="${data[i]._id}" class="card">
         <div class="card-header">
             <h2>${title}</h2>
-            <button class="btn btn-danger removeListBtn" value="${data[i]._id}">Delete</button>
+            <button class="btn btn-danger removeListBtn" value="${data[i]._id}" )>Delete</button>
         </div>
         <div class="card-body">
             <div class="row"><div class="col">

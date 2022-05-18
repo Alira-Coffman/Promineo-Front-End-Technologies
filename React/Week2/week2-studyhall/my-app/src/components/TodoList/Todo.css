@@ -1,0 +1,30 @@
+.modal{
+    margin: 5% auto;
+    width: 50%;
+    border: 1px solid rgb(241, 238, 238);
+    border-radius: 1rem;
+    padding: 2%;
+    
+    background-color: lightblue;
+}
+#list {
+    text-align: left;
+    margin: 0 auto;
+    
+}
+
+.input-group
+{
+    display: flex;
+    flex-direction: column;
+}
+#listitem
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+button{
+    background-color: rgb(231, 114, 114);
+    border: none;
+}
