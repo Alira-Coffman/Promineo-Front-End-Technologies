@@ -19,6 +19,5 @@ The second statement would execute evaluate the parenthesis (b > d && c > d), th
 They may have the same answer usually, but there is a case where they have different answers. If b < c but c > d
 
 
-test
 
 ![example](boolean.png)
