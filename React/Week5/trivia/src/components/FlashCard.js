@@ -1,25 +1,51 @@
 import React, { useState } from "react";
-import { Card } from "react-bootstrap";
+import { Card, Form , Container} from "react-bootstrap";
 
-const FlashCard = ({question, answer}) => {
-    const [flip, setflip] = useState(false);
-return(
+const FlashCard = ({question, answer, incorrect}) => {
+    {/**When card is clicked display answer, when clicked again display question */}
 
-  <Card className='mx-2' style={{ width: '18rem' ,backgroundColor: 'lightblue'}} onClick={() => setflip(!flip)}>
-  <Card.Body>
-    <div className={`${flip ? 'd-none' : ''}`}>
-    {question}
-    </div>
-    
-    <div className={`${flip ? '' : 'd-none'}`}>
-    {answer}
+    function shuffleArray(array) {
+        let i = array.length - 1;
+        for (; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          const temp = array[i];
+          array[i] = array[j];
+          array[j] = temp;
+        }
+        return array;
+      }
+    const [flip, setFlip] = useState(false);
 
-    </div>
+    const allAnswers = [...incorrect, answer];
+    console.log(allAnswers)
     
-    
-  </Card.Body>
-</Card>
-)
+    return(
+        <Container>
+        <Card className="bg-info">
+            <Card.Body>{question}
+            
+            {/**Loop over incorrect and display radio options */}
+            
+            <Form>
+            {allAnswers.map((i) => 
+            
+                <div key={`inline-${question}`} className="mb-3"  onClick={() => setFlip(true) }>
+                <Form.Check
+                  inline
+                  label={i}
+                  name="group1"
+                  type='radio'
+                  id={`inline-${i}-${question}-1`}
+                  isValid = {flip && i === answer}
+                  isInvalid = {flip && i !== answer}
+                />
+                </div>
+            )}
+            </Form>
+            </Card.Body>
+        </Card>
+        </Container>
+    )
 
 
 }

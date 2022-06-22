@@ -7,7 +7,7 @@ let a = "a" //string
 let z = "137.65" //string
 let b = false; //Boolean
 let y; //declaring
-
+console.log(z + age);//??136.6540
 let x;
 x = 5; //assignment 
 console.log(typeof(t));
@@ -47,3 +47,36 @@ console.log(age);
 //Modulus %
 
 console.log(177 %2)
+
+
+///Age Calculator
+
+var futureYear = 2026;
+var birthYear = 1988;
+var age = futureYear - birthYear;
+
+console.log("I will be " + age + " in " + futureYear);
+
+///BOOLEANS
+
+//true or false
+// >, < , >=, <= , && , ||
+
+5 > 3 //true 
+6 > 8 //false
+8 < 10 //true 
+10 >= 10 //true 
+10 > 10 //false 
+
+5 > 3 || 6 > 8 //TRUE 
+5 > 3 || 8 < 10 //True 
+5 > 3 && 8 < 10 //True 
+5 > 3 && 6 > 8 //false 
+//PEMDAS
+if(5 < 3){
+    console.log("foo");
+}
+else 
+{
+    console.log("bar");
+}
