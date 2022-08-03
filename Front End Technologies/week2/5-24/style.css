@@ -1,0 +1,53 @@
+h2{
+    color: aqua;
+}
+
+.text-container
+{
+    color: blue;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid green;
+}
+
+.text-container:first-child
+{
+    color: darkorchid
+}
+#box1
+{
+    
+}
+
+.bg-green input
+{
+    background: green;
+}
+
+
+
+#search{
+    padding: 100px;
+}
+
+/* #search:focus
+{
+    width: 1000px;
+} */
+#text-green
+{
+    color:green !important;
+}
+
+#question
+{
+
+}
+
+
+@media screen and (max-width: 567px)
+{
+    .text-container:hover{
+        color: darkgoldenrod
+    }
+}
