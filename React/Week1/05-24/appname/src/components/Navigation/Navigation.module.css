@@ -1,0 +1,14 @@
+#navigation
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: aqua;
+    margin: 0;
+    padding: 2%;
+}
+li
+{
+    text-transform: capitalize;
+    color: rgb(49, 62, 36);
+}
