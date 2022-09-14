@@ -7,6 +7,8 @@ const FunctionalComponent = ({countStart, increment}) => {
         setCount(count+increment);
     }
 
+    
+
     return (
         <div>
             <h1>Welcome</h1>
