@@ -8,13 +8,13 @@ function App() {
   return (
     <div className="container text-center">
       <h2>BlackJack</h2>
-      {/* <Table />
+      <Table />
 
-      <FunctionalComponent countStart={1} increment={1}/> */}
+      {/* <FunctionalComponent countStart={1} increment={1}/> */} 
 
-      {/* <Users /> */}
+      {/* <Users />*/}
 
-      <SpreadOperator />
+      {/* <SpreadOperator /> */}
     </div>
   );
 }

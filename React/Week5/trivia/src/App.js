@@ -21,7 +21,7 @@ function App() {
               {/* {items != null && items.results[0].question} */}
               {items != null && items.results.map((i) =>(
                  
-                      <FlashCard question={i.question} answer={i.correct_answer} incorrect={i.incorrect_answers}/>
+                      <FlashCard question={i.question} answers = {[...i.correct_answers, i.incorrect_answers]}/>
                   
 
               ))}
