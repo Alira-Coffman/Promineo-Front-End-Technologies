@@ -4,11 +4,14 @@ export default function TriviaCard({question, answers, correctAnswer})
 {
     return(
         <Card>
-            {question}
-
-            {answers.map((answer) => {
-                return answer
-            })}
+            <Card.Title>{question}</Card.Title>
+            <Card.Text>
+                <ul>
+                {answers.map((answer) => {
+                    return <li>{answer}</li>
+                })}
+                </ul>
+            </Card.Text>
         </Card>
     )
 }
